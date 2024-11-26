@@ -35,3 +35,17 @@ Command output:</p>
 <p>After running this command, the desired database will be dumped.</p>
 
 <p>With this in mind, if you have many databases, the script in this repository will do all the hard work for you. 😉</p>
+
+<pre>
+Edit script .ps1 to your information:
+
+# Configurações
+$BackupDir = "C:\backup_bancos"
+$MySQLUser = "admin"
+$MySQLPassword = "<YOUR-PASSWORD-SQL-PLESK>"
+$MySQLPort = 3306
+$MySQLPath = "C:\Program Files (x86)\Plesk\MySQL\bin"
+$FilePath = "lista.txt"
+$WaitSeconds = 10
+</pre>
+
